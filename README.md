@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.pipeline import Pipeline
 
+
 def train_spam_filter(data_path):
     try:
         # Load the data from the CSV file
